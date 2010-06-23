@@ -63,7 +63,7 @@ module Twitter
                    :application_version => Twitter::Version.to_version,
                    :application_url => 'http://twitter4r.rubyforge.org',
                    :source => 'twitter4r',
-                   :timeout => 15.seconds,
+                   :timeout => 15,
     }
     @@config = Twitter::Config.new(@@defaults)
 
