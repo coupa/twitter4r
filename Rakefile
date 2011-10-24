@@ -1,7 +1,7 @@
 $:.unshift('lib')
 
 require('rubygems')
-gem('rspec')
+#gem('rspec')
 
 ROOT_DIR = File.join(File.dirname(__FILE__))
 
@@ -14,8 +14,8 @@ import('tasks/find.rake')
 #import('tasks/metrics.rake')
 import('tasks/pkg.rake')
 import('tasks/rubyforge.rake')
-import('tasks/spec.rake')
-import('tasks/stats.rake')
+#import('tasks/spec.rake')
+#import('tasks/stats.rake')
 import('tasks/web.rake')
 
 task :default => [:coverage]

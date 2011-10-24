@@ -6,6 +6,7 @@ namespace :package do
   Rake::GemPackageTask.new(meta.gem_spec) do |pkg|
     pkg.need_zip = true
     pkg.need_tar = true
+    pkg.package_files.include('bin/*')
   end
 end
 

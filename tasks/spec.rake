@@ -1,5 +1,6 @@
 gem 'rspec', '>=1.0.0'
-require('spec')
+require 'rspec'
+#require('spec')
 require('spec/rake/spectask')
 require('spec/rake/verify_rcov')
 #require('rcov_report')
